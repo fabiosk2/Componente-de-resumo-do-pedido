@@ -6,10 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 body {
+    background-color: rgb(224, 232, 255);
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
+    display: flex;    
     flex-direction: column;
     align-items: center;
     font-family: 'Red Hat Display', sans-serif;
@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    box-shadow: 7px 7px 10px rgba(114, 128, 167, 0.418);
 }
 
 #img-header {
